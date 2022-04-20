@@ -9,7 +9,7 @@ export const Contenedor = styled.div`
   background-color:transparent;
   padding: 2px;
 
-  @media (max-width:600px) {
+  @media (max-width:370px) {
   
   /* position: absolute;
   top:50px;
@@ -25,7 +25,7 @@ justify-content: space-between;
 width:250px;
 margin-right: 25px;
 
-@media (max-width:600px) {
+@media (max-width:370px) {
   
   /* position: absolute;
   top:50px;
@@ -52,7 +52,7 @@ export const ContSearch = styled.div`
   width: max-content;
   height: 25px;
 
-  @media (max-width:600px) {
+  @media (max-width:370px) {
   
  
    background-color: transparent;

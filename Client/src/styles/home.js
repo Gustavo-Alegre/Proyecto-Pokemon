@@ -58,7 +58,7 @@ export const ContPoke = styled.div`
   backdrop-filter: blur(20px);
   background-color: rgba(0,0,0,0.5) ;
 
-  @media (max-width:600px) {
+  @media (max-width:370px) {
   
   /* position: absolute;
   top:50px;
@@ -83,14 +83,14 @@ export const NavBar = styled.div`
    box-shadow: 0 10px 30px #000; 
    height: 70px;
 
-   @media (max-width:600px) {
+   @media (max-width:370px) {
   
   position: relative;
   margin-top: 10px;
   flex-direction:column;
   height: 225px;
-  justify-content: flex-start;
- width: 100%;
+  justify-content: center;
+  width: 370px;
 
 
 }
@@ -109,14 +109,15 @@ export const SunNavBar = styled.div`
    top: 0;
   left: 0;
 
-  @media (max-width:600px) {
+  @media (max-width:370px) {
   
 
    margin-top: 10px;
    flex-direction:column;
    height: 300px;
    justify-content: flex-start;
-   max-width: 375px;
+   width: 370px;
+   background-color: aqua;
 
  }
   
@@ -134,36 +135,52 @@ export const NavBarGrupo1 = styled.div`
  box-sizing: content-box;
 
  
+ @media (max-width:370px) {
+  
 
+ 
+  width: 370px;
+  background-color: red;
+
+}
 
 `;
 
 export const NavBarGrupo2 = styled.div`
 display: flex;
  position: relative;
- /* background-color: blue; */
+ background-color: blue;
  width: 900px;
  padding-left: auto;
  padding-right: auto;
-margin-left: 2px;
+
  align-items: center;
+
+ @media (max-width:370px) {
+  
+
+ 
+  width: 370px;
+  background-color: blue;
+
+}
  
 `;
 
 export const NavBarGrupo3 = styled.div`
 
-display: flex;
+  display: flex;
  flex-direction: row;
  justify-content:space-around;
  align-items: center;
  width: 900px;
  box-sizing: content-box;
 
- @media (max-width:600px) {
+ @media (max-width:370px) {
   
   flex-direction: column;
   
-  background-color: transparent;
+  background-color: green;
   position: relative;
   left: 0;
   top: -5px;
@@ -190,7 +207,7 @@ export const NavBarGrupo4 = styled.div`
     width: max-content;
     margin-left:20px;
 
-     @media (max-width:600px) {
+     @media (max-width:370px) {
      
       margin-left:auto;
       margin-right:auto;
@@ -275,7 +292,7 @@ export const Select = styled.div`
   height: 15px;
   width: 70px;
 
-  @media (max-width:600px) {
+  @media (max-width:370px) {
   
   margin-top: 60px;
   width: 70px;
