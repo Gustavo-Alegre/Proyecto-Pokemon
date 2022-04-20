@@ -91,7 +91,7 @@ export const ContPoke = styled.div`
 export const BotonGoToHome = styled.button`
 height: 20px;
 font-size: 10px;
-background: none;
+background: red;
 
   
 
