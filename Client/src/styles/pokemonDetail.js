@@ -56,7 +56,7 @@ export const PokemonImage = styled.img`
   box-shadow: 0 10px 30px white; 
   margin-top: 25px;
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
   
     width: 225px;
     height:325px;
@@ -89,8 +89,8 @@ export const ContPoke = styled.div`
 
 
 export const BotonGoToHome = styled.button`
-height: 20px;
-font-size: 10px;
+height: 25px;
+font-size: 15px;
 background: none;
 
   
@@ -107,6 +107,13 @@ background: none;
     background: white;
     color: black;
   }
+
+  @media (max-width:600px) {
+  
+    height: 20px;
+font-size: 10px;
+
+}
 `;
 
 
@@ -144,14 +151,14 @@ export const StyledLink = styled(Link)`
 
 export const Name = styled.h2`
    color: white;
-   font-size:25px;
+   font-size:20px;
  
 
 `;
 
 export const NameType = styled.p`
    color: greenyellow;
-   font-size:17px;
+   font-size:15px;
    margin: 1px 5px;
  
 
@@ -162,7 +169,7 @@ export const DivType = styled.div`
   flex-direction:column;
   align-items:center;
   position: relative;
-  top: -30px;
+  top: -60px;
  
 
 `;
@@ -182,7 +189,13 @@ export const NumeroPokemon = styled.h2`
  margin-bottom: 45px;
  font-family: "Poppins";
  color: greenyellow;
- font-size: 21px;
+ font-size: 20px;
+
+ @media (max-width:600px) {
+  
+  font-size: 17px;
+
+}
 
 
 `;
@@ -191,7 +204,14 @@ export const SubtitulosUlErrores = styled.ul`
 
 
   font-family: "Poppins";
-  font-size: 18px;
+  font-size: 17px;
+
+  @media (max-width:600px) {
+  
+  font-size: 12px;
+
+}
+  
 
 
 `;

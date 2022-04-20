@@ -58,7 +58,7 @@ export const ContPoke = styled.div`
   backdrop-filter: blur(20px);
   background-color: rgba(0,0,0,0.5) ;
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
   
   /* position: absolute;
   top:50px;
@@ -84,7 +84,7 @@ export const NavBar = styled.div`
    box-shadow: 0 10px 30px #000; 
    height: 70px;
 
-   @media (max-width:400px) {
+   @media (max-width:600px) {
   
   position: relative;
   margin-top: 10px;
@@ -111,7 +111,7 @@ export const SunNavBar = styled.div`
    top: 0;
   left: 0;
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
   
 
    margin-top: 10px;
@@ -137,7 +137,7 @@ export const NavBarGrupo1 = styled.div`
  box-sizing: content-box;
 
  
- @media (max-width:400px) {
+ @media (max-width:600px) {
   
 
  
@@ -158,7 +158,7 @@ display: flex;
 
  align-items: center;
 
- @media (max-width:400px) {
+ @media (max-width:600px) {
   
 
  
@@ -178,7 +178,7 @@ export const NavBarGrupo3 = styled.div`
  width: 900px;
  box-sizing: content-box;
 
- @media (max-width:400px) {
+ @media (max-width:600px) {
   
   flex-direction: column;
   
@@ -209,7 +209,7 @@ export const NavBarGrupo4 = styled.div`
     width: max-content;
     margin-left:20px;
 
-     @media (max-width:400px) {
+     @media (max-width:600px) {
      
       margin-left:auto;
       margin-right:auto;
@@ -294,7 +294,7 @@ export const Select = styled.div`
   height: 15px;
   width: 70px;
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
   
   margin-top: 60px;
   width: 70px;

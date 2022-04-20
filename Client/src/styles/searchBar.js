@@ -9,7 +9,7 @@ export const Contenedor = styled.div`
   background-color:none;
   padding: 2px;
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
   
   /* position: absolute;
   top:50px;
@@ -28,7 +28,7 @@ justify-content: center;
 width:250px;
 margin-right: 25px;
 
-@media (max-width:400px) {
+@media (max-width:600px) {
   
   /* position: absolute;
   top:50px;
@@ -56,7 +56,7 @@ export const ContSearch = styled.div`
   width: max-content;
   height: 25px;
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
   
  
    background-color: none;
@@ -75,7 +75,7 @@ export const FormSearch = styled.form`
   flex-grow: 1;
   margin-right: 2rem;
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
   
  
     margin-right: 0rem;
