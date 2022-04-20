@@ -10,7 +10,6 @@ export const Contenedor = styled.div`
   justify-content:center;
   align-items: center;
   background-color: black;
- 
   width: 100%;
   
   
@@ -22,7 +21,6 @@ export const Contenedor = styled.div`
   backdrop-filter: blur(20px);
   background-color: rgba(0,0,0,0.5) ;
 
- 
 `;
 
 
@@ -38,7 +36,7 @@ align-items: center;
   
 
  
- 
+
     
  
 `;
@@ -69,34 +67,6 @@ export const Formulario = styled.div`
 
 `;
 
-// export const Errores = styled.div`
-//  display: flex;
-//  margin-top: 100px;
-//  flex-direction: column;
-//  align-items: center;
-//  width: 400px;
-//  height: 750px;
-//  box-sizing: content-box;
-//  right: 350px;
-
-
-// font-family: "Poppins";
-// color: red;
-// font-size: 20px;
-
-
-// background-color: #350;
-// border-radius: 35px;
-// box-shadow: 0 10px 30px white; 
-
-// -webkit-backdrop-filter: blur(15px);
-//  backdrop-filter: blur(20px);
-// background-color: rgba(0,0,0,0.5) ;
-
-
-
-
-// `;
 
 export const SubtitulosUlErrores = styled.ul`
 
@@ -104,12 +74,29 @@ export const SubtitulosUlErrores = styled.ul`
   font-family: "Poppins";
   font-size: 20px;
 
+  @media (max-width: 600px) {
+    
+    
+    font-size: 10px;
+ 
+
+  }
+
 `;
 
 export const SubtitulosLiErrores = styled.li`
 
  margin-top: 10px;
  color: red;
+
+ @media (max-width: 600px) {
+    
+    
+    font-size: 12px;
+    font-family: "Poppins";
+ 
+
+  }
 
 `;
 
@@ -130,6 +117,16 @@ export const Subgrupo2A = styled.div`
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(20px);
   background-color: rgba(0,0,0,0.1) ;
+
+  @media (max-width:600px) {
+  
+ 
+    border-radius: 20px;
+    margin:5px;
+    
+
+
+}
   
 `;
 
@@ -185,6 +182,15 @@ margin-right: 45px;
     background: white;
     color: black;
   }
+
+  @media (max-width: 600px) {
+    
+    height: 25px;
+    font-size: 10px;
+    width: 125px;
+
+
+  }
 `;
 
 export const BotonCreate = styled.button`
@@ -208,6 +214,14 @@ font-size: 17px;
     background: white;
     color: black;
   }
+
+  @media (max-width: 600px) {
+    
+    height: 25px;
+    font-size: 12px;
+    width: 150px;
+
+  }
 `;
 
 
@@ -230,6 +244,11 @@ font-family: "popins";
 color: greenyellow;
 margin: 0 45px;
 
+@media (max-width: 600px) {
+
+  font-size:25px;
+}
+
 
 
 `;
@@ -240,10 +259,22 @@ export const InputForm = styled.input`
   color: #fff;
   font-size: 15px;
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
+  /* font-style: normal;
+  font-weight: 300; */
   border: none;
   outline: none;
+
+  
+  @media (max-width: 600px) {
+    
+    /* height: 25px; */
+    font-size: 12px;
+    width: 200px;
+    background-color: none;
+    height: 15px;
+   
+
+  }
 `;
 
 
@@ -252,6 +283,21 @@ export const DivInputForm = styled.div`
   padding: 13px 20px;
   border-radius: 45px;
   height:20px;
+  
+
+  
+  @media (max-width: 600px) {
+    
+  border-radius: 40px;
+  max-height:fit-content;
+  background-color: none;
+  padding: 0px 20px;
+  line-height: 15px;
+
+  
+
+
+  }
  
 `;
 
@@ -270,6 +316,15 @@ font-size: 1.5em;
 color: white;
 font-family: "Poppins";
 margin-right: 15px;
+
+@media (max-width: 600px) {
+    
+  font-size: 15px;
+  background-color: none;
+  width: 77px;
+  margin-right: 10px;
+
+  }
 
 
 
@@ -292,6 +347,13 @@ export const Subtitulos = styled.label`
   font-family: "Poppins";
   font-size: 17px;
 
+  @media (max-width: 600px) {
+    
+    font-size: 12px;
+
+
+  }
+
 `;
 
 export const SubtitulosType = styled.label`
@@ -300,4 +362,10 @@ export const SubtitulosType = styled.label`
   font-family: "Poppins";
   font-size: 17px;
 
+  @media (max-width: 600px) {
+    
+    font-size: 12px;
+
+
+  }
 `;
