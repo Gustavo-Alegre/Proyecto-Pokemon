@@ -65,6 +65,7 @@ export const ContPoke = styled.div`
   left: 300px; */
    /* display: none */
    margin-top: 450px;
+   border-radius: 35px;
    
  }
 `;

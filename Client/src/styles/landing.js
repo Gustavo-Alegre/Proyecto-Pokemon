@@ -16,6 +16,9 @@ height: 100%;
 background-color: black;
 min-height: 100vh;
 
+
+
+
 `;
 
 
@@ -26,6 +29,15 @@ height: 100%;
 object-fit: cover; 
 position: absolute; 
 
+
+
+@media (max-width:400px) {
+  
+
+  object-fit: contain;
+
+  
+}
 
 `;
 
