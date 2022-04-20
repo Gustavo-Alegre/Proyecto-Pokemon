@@ -349,7 +349,7 @@ export const Subtitulos = styled.label`
 
   @media (max-width: 600px) {
     
-    font-size: 12px;
+    font-size: 14px;
 
 
   }
