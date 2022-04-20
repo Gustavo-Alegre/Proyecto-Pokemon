@@ -6,7 +6,7 @@ export const Contenedor = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color:transparent;
+  background-color:none;
   padding: 2px;
 
   @media (max-width:400px) {
@@ -16,12 +16,15 @@ export const Contenedor = styled.div`
   left: 300px; */
    /* display: none */
    flex-direction:column;
+   width: 100%;
+   justify-items: center;
+   align-items: center;
  }
 `;
 
 export const ContTitulo = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: center;
 width:250px;
 margin-right: 25px;
 
@@ -31,10 +34,11 @@ margin-right: 25px;
   top:50px;
   left: 300px; */
    /* display: none */
-   background-color: tr;
-   max-width: max-content;
+   background-color: none;
+   width: 100%;
    margin-top: 15px;
-   margin-left: 40px;
+   margin-right: 0px;
+  
  }
 `;
 
@@ -57,8 +61,10 @@ export const ContSearch = styled.div`
  
    background-color: none;
    margin-top: 15px;
+   margin-left:auto;
+   margin-right:auto;
 
-   margin-left: 65px;
+ 
  }
 `;
 
@@ -68,6 +74,15 @@ export const FormSearch = styled.form`
   width: 50%;
   flex-grow: 1;
   margin-right: 2rem;
+
+  @media (max-width:400px) {
+  
+ 
+    margin-right: 0rem;
+    width: 100%;
+
+
+}
 `;
 
 export const InputSearch = styled.input`

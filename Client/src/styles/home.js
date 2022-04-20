@@ -76,7 +76,7 @@ export const ContPoke = styled.div`
 export const NavBar = styled.div`
 
   position: fixed;
-  width: 100%;
+  max-width: fit-content;
   background-color: black;
   top: 0;
   left: 0;
@@ -90,7 +90,8 @@ export const NavBar = styled.div`
   flex-direction:column;
   height: 225px;
   justify-content: center;
-  width: 370px;
+  max-width:none;
+ 
 
 
 }
@@ -105,18 +106,18 @@ export const SunNavBar = styled.div`
    margin:0 auto;
    display: flex;
    justify-content: space-between;
-   background-color: transparent;
+   background-color: none;
    top: 0;
   left: 0;
 
-  @media (max-width:440px) {
+  @media (max-width:400px) {
   
 
    margin-top: 10px;
    flex-direction:column;
    height: 300px;
    justify-content: flex-start;
-   width: 370px;
+   width: 100%;
    background-color: none;
 
  }
@@ -135,11 +136,11 @@ export const NavBarGrupo1 = styled.div`
  box-sizing: content-box;
 
  
- @media (max-width:440px) {
+ @media (max-width:400px) {
   
 
  
-  width: 370px;
+  width: 100%;
   background-color: none;
 
 }
@@ -160,7 +161,7 @@ display: flex;
   
 
  
-  width: 370px;
+  width: 100%;
   background-color: none;
 
 }
@@ -202,7 +203,7 @@ export const NavBarGrupo4 = styled.div`
      box-sizing: content-box;
      justify-content: center;
      align-items: center;
-    background-color: transparent;
+    background-color: none;
     box-sizing: content-box;
     width: max-content;
     margin-left:20px;
@@ -306,7 +307,7 @@ export const SelectFiltros = styled.select`
   color: #000;
   font-size: 13px;
   font-family: "Poppins";
-  font-weight: 400px;
+  font-weight: 40px;
   flex-grow: 1;
 `;
 
