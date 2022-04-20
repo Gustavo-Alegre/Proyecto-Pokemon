@@ -271,7 +271,7 @@ export const InputForm = styled.input`
     font-size: 12px;
     width: 200px;
     background-color: none;
-    height: 15px;
+    height: 25px;
    
 
   }
