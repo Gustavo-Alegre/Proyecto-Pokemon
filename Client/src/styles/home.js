@@ -117,7 +117,7 @@ export const SunNavBar = styled.div`
    height: 300px;
    justify-content: flex-start;
    width: 370px;
-   background-color: aqua;
+   background-color: none;
 
  }
   
@@ -140,7 +140,7 @@ export const NavBarGrupo1 = styled.div`
 
  
   width: 370px;
-  background-color: red;
+  background-color: none;
 
 }
 
@@ -149,7 +149,7 @@ export const NavBarGrupo1 = styled.div`
 export const NavBarGrupo2 = styled.div`
 display: flex;
  position: relative;
- background-color: blue;
+ background-color: none;
  width: 900px;
  padding-left: auto;
  padding-right: auto;
@@ -161,7 +161,7 @@ display: flex;
 
  
   width: 370px;
-  background-color: blue;
+  background-color: none;
 
 }
  
@@ -180,7 +180,7 @@ export const NavBarGrupo3 = styled.div`
   
   flex-direction: column;
   
-  background-color: green;
+  background-color: none;
   position: relative;
   left: 0;
   top: -5px;

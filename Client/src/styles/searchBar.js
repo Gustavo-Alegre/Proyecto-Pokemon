@@ -31,7 +31,7 @@ margin-right: 25px;
   top:50px;
   left: 300px; */
    /* display: none */
-   background-color: transparent;
+   background-color: tr;
    max-width: max-content;
    margin-top: 15px;
    margin-left: 40px;
@@ -55,7 +55,7 @@ export const ContSearch = styled.div`
   @media (max-width:400px) {
   
  
-   background-color: transparent;
+   background-color: none;
    margin-top: 15px;
 
    margin-left: 65px;
