@@ -56,7 +56,7 @@ export const PokemonImage = styled.img`
   box-shadow: 0 10px 30px white; 
   margin-top: 25px;
 
-  @media (max-width:375px) {
+  @media (max-width:400px) {
   
     width: 225px;
     height:325px;
@@ -65,7 +65,7 @@ export const PokemonImage = styled.img`
   
 
   
-`;
+`;s
 
 export const ContPoke = styled.div`
 
