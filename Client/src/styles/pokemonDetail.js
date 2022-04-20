@@ -55,6 +55,13 @@ export const PokemonImage = styled.img`
   border: 1px solid rgb(255,255, 255);
   box-shadow: 0 10px 30px white; 
   margin-top: 25px;
+
+  @media (max-width:375px) {
+  
+    width: 225px;
+    height:325px;
+ 
+}
   
 
   
@@ -65,7 +72,7 @@ export const ContPoke = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
- width:100%;
+  width:100%;
   margin: 5px;
   padding:10px;
 
@@ -82,10 +89,10 @@ export const ContPoke = styled.div`
 
 
 export const BotonGoToHome = styled.button`
-height: 35px;
-font-size: 17px;
+height: 20px;
+font-size: 10px;
 background: none;
-margin-right: 45px;
+
   
 
   border: none;
