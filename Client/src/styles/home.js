@@ -204,7 +204,7 @@ export const NavBarGrupo4 = styled.div`
      box-sizing: content-box;
      justify-content: center;
      align-items: center;
-    background-color: none;
+    background-color: transparent;
     box-sizing: content-box;
     width: max-content;
     margin-left:20px;

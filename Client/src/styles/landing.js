@@ -31,7 +31,7 @@ position: absolute;
 
 
 
-@media (max-width:400px) {
+@media (max-width:600px) {
   
 
   object-fit: contain;

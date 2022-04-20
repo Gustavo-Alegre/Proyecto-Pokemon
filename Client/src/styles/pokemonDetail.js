@@ -41,6 +41,13 @@ export const PokemonCard = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width:600px) {
+  
+background-color: transparent;
+height: 250px;
+
+}
  
 
 `;
@@ -151,7 +158,7 @@ export const StyledLink = styled(Link)`
 
 export const Name = styled.h2`
    color: white;
-   font-size:20px;
+   font-size:25px;
  
 
 `;
@@ -161,7 +168,7 @@ export const NameType = styled.p`
    font-size:15px;
    margin: 1px 5px;
  
-
+  
 `;
 
 export const DivType = styled.div`
@@ -171,6 +178,11 @@ export const DivType = styled.div`
   position: relative;
   top: -60px;
  
+  @media (max-width:600px) {
+  
+background-color:transparent;
+
+}
 
 `;
 
@@ -208,7 +220,7 @@ export const SubtitulosUlErrores = styled.ul`
 
   @media (max-width:600px) {
   
-  font-size: 12px;
+  font-size: 13px;
 
 }
   
