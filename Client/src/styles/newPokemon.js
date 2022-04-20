@@ -259,8 +259,8 @@ export const InputForm = styled.input`
   color: #fff;
   font-size: 15px;
   font-family: "Poppins";
-  /* font-style: normal;
-  font-weight: 300; */
+  font-style: normal;
+  font-weight: 300;
   border: none;
   outline: none;
 
@@ -271,7 +271,7 @@ export const InputForm = styled.input`
     font-size: 12px;
     width: 200px;
     background-color: none;
-    height: 25px;
+    height: 35px;
    
 
   }
@@ -319,7 +319,7 @@ margin-right: 15px;
 
 @media (max-width: 600px) {
     
-  font-size: 15px;
+  font-size: 13px;
   background-color: none;
   width: 77px;
   margin-right: 10px;
@@ -349,7 +349,7 @@ export const Subtitulos = styled.label`
 
   @media (max-width: 600px) {
     
-    font-size: 14px;
+    font-size: 13px;
 
 
   }
@@ -364,7 +364,7 @@ export const SubtitulosType = styled.label`
 
   @media (max-width: 600px) {
     
-    font-size: 12px;
+    font-size: 13px;
 
 
   }
