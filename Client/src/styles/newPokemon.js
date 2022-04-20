@@ -290,7 +290,7 @@ export const DivInputForm = styled.div`
     
   border-radius: 40px;
   max-height:fit-content;
-  background-color: blue;
+  background-color: none;
   padding: 5px 10px;
   line-height: 15px;
 
