@@ -271,7 +271,7 @@ export const InputForm = styled.input`
     font-size: 12px;
     width: 200px;
     background-color: none;
-    height: 35px;
+    height: 20px;
    
 
   }
@@ -290,8 +290,8 @@ export const DivInputForm = styled.div`
     
   border-radius: 40px;
   max-height:fit-content;
-  background-color: none;
-  padding: 0px 20px;
+  background-color: blue;
+  padding: 5px 10px;
   line-height: 15px;
 
   
