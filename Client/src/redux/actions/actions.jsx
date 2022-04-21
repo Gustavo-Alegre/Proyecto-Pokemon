@@ -14,6 +14,13 @@ import axios from 'axios';
 // }
 // };
 
+
+export function cambio(payload){ 
+    return { type: "RESPONSIVE" , payload}
+}
+
+
+
 export function getAllPokemons(){ 
     return async function(dispatch){ 
         const response =  await axios.get(`/pokemons`) 

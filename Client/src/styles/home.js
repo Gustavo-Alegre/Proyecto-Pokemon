@@ -42,7 +42,7 @@ export const ContPoke = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   margin-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
@@ -64,8 +64,9 @@ export const ContPoke = styled.div`
   top:50px;
   left: 300px; */
    /* display: none */
-   margin-top: 450px;
+   margin-top: ${({open1}) => open1 ? "350px" : "0px"};
    border-radius: 35px;
+   position: relative;
    
  }
 `;
@@ -77,7 +78,7 @@ export const ContPoke = styled.div`
 export const NavBar = styled.div`
 
   position: fixed;
-  max-width: fit-content;
+  width: 100%;
   background-color: black;
   top: 0;
   left: 0;
@@ -89,7 +90,7 @@ export const NavBar = styled.div`
   position: relative;
   margin-top: 10px;
   flex-direction:column;
-  height: 225px;
+  height: 245px;
   justify-content: center;
   max-width:none;
  
@@ -179,7 +180,7 @@ export const NavBarGrupo3 = styled.div`
  box-sizing: content-box;
 
  @media (max-width:600px) {
-  
+/*   
   flex-direction: column;
   
   background-color: none;
@@ -188,12 +189,20 @@ export const NavBarGrupo3 = styled.div`
   top: -5px;
   width: 100%;
   align-items: center;
+   */
   
+  width: 100%;
+  position: relative;
+  top: 20px;
+  left: ${({open}) => open ? "0" : "-100%"};
+  height: 90vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s all ease;
 
  }
 
-
- 
 `;
 
 
@@ -281,7 +290,7 @@ export const Select = styled.div`
   padding: 8px 20px;
   background-color: #fff;
   border-radius: 45px;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   margin-right: 15px;
   margin-left: 2rem;
 
@@ -290,8 +299,9 @@ export const Select = styled.div`
 
   @media (max-width:600px) {
   
-  margin-top: 60px;
+  margin-top: 50px;
   width: 70px;
+  height: 7px;
  }
 `;
 
@@ -321,27 +331,30 @@ export const StyledLink = styled(Link)`
    }
 `;
 
+export const  MobileIcon = styled.div`
 
-// export const InputMenu= styled.input`
-//  display: inline-block;
-//   position:fixed;
-//   left: calc(100% / 2);
-//   top: 230px;
-//   height: 25px;
-//   cursor: pointer;
-//   display: none;
-   
-  
+display: none;
 
-//   @media (max-width:600px) {
+@media (max-width: 600px) {
  
-//   display: block;
+ 
+  align-items: center;
+  display: block;
+  background-color: black;
+  cursor: pointer;
+ 
+
+
+  svg {
+    fill: white;
+   
+    height: 25px;
+    width: 25px;
   
-  
-//   }
 
-// `;
-
-
-
+    
+    
+  }
+}
+`
 

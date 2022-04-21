@@ -1,14 +1,17 @@
 import React from 'react'
 import PokemonsCard from './pokemonsCard' ;
-import {ContPoke} from '../../styles/home'
+import {ContPoke} from '../../styles/home';
+import  {  useSelector } from "react-redux";
 
 
 
 export default function PokemonsCards({pokemon}) {
 
+  let showMobileMenu = useSelector(state => state.showMobileMenu)
+
   return (
     <div> 
-       <ContPoke >
+       <ContPoke open1={showMobileMenu}>
         {pokemon.map((poke)=> 
             <PokemonsCard  
             key={poke.id}  

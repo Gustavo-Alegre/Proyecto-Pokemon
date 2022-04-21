@@ -7,6 +7,7 @@ const initialState = {
   pokemonTypes: [],
   auxPokemons: [],
   loading: false,
+  showMobileMenu: false,
   
 
 
@@ -15,6 +16,18 @@ const initialState = {
 export function reducer(state = initialState, actions) {
 
   switch (actions.type) {
+
+
+    case "RESPONSIVE": {
+      if (actions.payload === true) {
+        return { ...state, showMobileMenu: true }
+      }
+
+      if (actions.payload === false) {
+        return { ...state, showMobileMenu: false }
+      }
+    
+    }
 
     
 

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { getAllPokemons, orders, setLoading, filterType, getTypes, pokemonName } from "../../redux/actions/actions";
+import { getAllPokemons, orders, setLoading, filterType, getTypes, pokemonName, cambio } from "../../redux/actions/actions";
 import PokemonsCards from '../pokemonsCards/pokemonsCards';
 import SearchBar from '../searchBar/searchBar';
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaBars } from "react-icons/fa";
 
 
 
@@ -25,6 +25,7 @@ import {
   FlechaBotonPaginas,
 
   SunNavBar,
+  MobileIcon,
   
 } from '../../styles/home';
 import flechabajo from "../../activos/chevron-down.svg";
@@ -42,12 +43,15 @@ import flechabajo from "../../activos/chevron-down.svg";
   let state = useSelector(state => state.allPokemons);
   const type = useSelector(state => state.pokemonTypes)
   let loading = useSelector(state => state.loading)
+  let showMobileMenu = useSelector(state => state.showMobileMenu)
   
 
   const [currentPage, setCurrentPage] = useState(1)
   const [postsPerPage] = useState(12)
   const [alfa, setAlfa] = useState()
   const [name, setName] = React.useState('')
+
+  
 
 
   useEffect(() => {
@@ -119,7 +123,9 @@ import flechabajo from "../../activos/chevron-down.svg";
     dispatch(getAllPokemons()) 
     }
 
-
+    function setMobileMenu(){   
+      dispatch(cambio(!showMobileMenu))
+      }
  
   
     
@@ -135,6 +141,11 @@ return (
       <NavBarGrupo1>
 
         <Boton id='refresh' onClick={handlerLoading}>Recargar</Boton>
+
+        <MobileIcon onClick={() => setMobileMenu()}>
+<FaBars />
+</MobileIcon>
+
         <Boton><StyledLink to={`/create`}>Crear pokemon</StyledLink></Boton>
 
       </NavBarGrupo1>
@@ -165,7 +176,7 @@ return (
       </NavBarGrupo4>
 
 
-      <NavBarGrupo3>
+      <NavBarGrupo3 open={showMobileMenu}>
         <Select>
 
           <SelectFiltros  defaultValue='order' onChange={(e) => handleOnChange(e)}>
@@ -238,6 +249,9 @@ return (
       <NavBarGrupo1>
 
         <Boton  onClick={ ()=> dispatch(getAllPokemons())}>Recargar</Boton>
+        <MobileIcon onClick={() => setMobileMenu()}>
+<FaBars />
+</MobileIcon>
         <Boton><StyledLink to={`/create`}>Crear pokemon</StyledLink></Boton>
 
       </NavBarGrupo1>
@@ -268,9 +282,9 @@ return (
 
       </NavBarGrupo4>
 
+ 
 
-
-      <NavBarGrupo3>
+      <NavBarGrupo3 open={showMobileMenu}>
         
         <Select>
           <SelectFiltros id='order' defaultValue='order' onChange={(e) => handleOnChange(e)}>
