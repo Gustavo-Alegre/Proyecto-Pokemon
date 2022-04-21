@@ -11,9 +11,11 @@ export default function PokemonsCard(props) {
 
       <PokemonCard >
       <Link key={id} to={`/detail/${id}`}>
-        <PokemonImage src={img} alt='cargando..' />
+        
+        { img ? <PokemonImage src={img} /> : <PokemonImage src={"https://mir-s3-cdn-cf.behance.net/project_modules/disp/12b0bc18665823.562cd46c220a8.png"} alt='cargando..'/>}
         </Link>
         <Name>{name}</Name>
+       
         <DivType>
           {type && type.map(e => (
             <NameType key={e}>{e}</NameType>

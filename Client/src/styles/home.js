@@ -199,11 +199,11 @@ export const NavBarGrupo3 = styled.div`
 
 export const NavBarGrupo4 = styled.div`
 
-     display:flex;
-     flex-direction: row;
-     box-sizing: content-box;
-     justify-content: center;
-     align-items: center;
+    display:flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     box-sizing: content-box;
     width: max-content;

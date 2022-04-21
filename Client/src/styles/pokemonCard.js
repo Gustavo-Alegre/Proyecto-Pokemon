@@ -21,7 +21,7 @@ export const PokemonImage = styled.img`
 
   width: 180px;
   height: 180px;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 20px 20px 20px 20px;
   border: 1px solid rgb(255,255, 255);
   box-shadow: 0 10px 30px white; 

@@ -70,7 +70,9 @@ export const PokemonsDetail = () => {
            {typeof state.id === 'string' && <BotonDelete onClick={()=> deletePk(id)} id='delete'><FaTrash/></BotonDelete>}  
          </Grupo1> 
              <div> 
-               <PokemonImage src={state.img} alt='cargando..' id='pokeimg' />  
+             { state.img ? <PokemonImage src={state.img} /> : <PokemonImage src={"https://mir-s3-cdn-cf.behance.net/project_modules/disp/12b0bc18665823.562cd46c220a8.png"} alt='cargando..'/>}
+
+
              </div>
            <PokemonCard >  
              <Name>{ state.name}</Name>  
