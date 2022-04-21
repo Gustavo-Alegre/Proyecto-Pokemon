@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { getAllPokemons, orders, setLoading, filterType, getTypes, pokemonName } from "../../redux/actions/actions";
 import PokemonsCards from '../pokemonsCards/pokemonsCards';
 import SearchBar from '../searchBar/searchBar';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 
 
@@ -152,13 +153,13 @@ return (
       <NavBarGrupo4>
 
         <FlechaBotonPaginas onClick={prevPage}>
-          ⬅
+      <FaArrowLeft/>
         </FlechaBotonPaginas>
 
         <Paginado>{state.length === 0 ? 0 : currentPage} de {state.length === 0 ? '0' : pageNumbers.length}</Paginado>
 
         <FlechaBotonPaginas onClick={nextPage}>
-          ➡
+        <FaArrowRight/>
         </FlechaBotonPaginas>
 
       </NavBarGrupo4>
@@ -256,13 +257,13 @@ return (
       <NavBarGrupo4>
 
         <FlechaBotonPaginas onClick={prevPage}>
-          ⬅
+        <FaArrowLeft/>
         </FlechaBotonPaginas>
 
         <Paginado>{state.length === 0 ? 0 : currentPage} de {state.length === 0 ? '0' : pageNumbers.length}</Paginado>
 
         <FlechaBotonPaginas onClick={nextPage}>
-          ➡
+        <FaArrowRight/>
         </FlechaBotonPaginas>
 
       </NavBarGrupo4>
