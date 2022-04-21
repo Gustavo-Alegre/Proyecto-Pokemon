@@ -84,7 +84,7 @@ export const SubtitulosUlErrores = styled.ul`
 
 `;
 
-export const SubtitulosLiErrores = styled.li`
+export const SubtitulosLiErrores = styled.p`
 
  margin-top: 10px;
  color: red;
