@@ -74,7 +74,7 @@ export const SubtitulosUlErrores = styled.ul`
   font-family: "Poppins";
   font-size: 20px;
 
-  @media (max-width: 700px) {
+  @media (max-width: 600px) {
     
     
     font-size: 10px;
@@ -89,10 +89,10 @@ export const SubtitulosLiErrores = styled.li`
  margin-top: 10px;
  color: red;
 
- @media (max-width: 700px) {
+ @media (max-width: 600px) {
     
     
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Poppins";
  
 
