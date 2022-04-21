@@ -83,15 +83,15 @@ export const PokemonsDetail = () => {
              ))}
              </DivType>
              <SubtitulosUlErrores > 
-               <SubtitulosLi>hp:{state.hp}</SubtitulosLi>
+               <SubtitulosLi>Hp:{state.hp}</SubtitulosLi>
                <SubtitulosLi>Attack: {state.attack}</SubtitulosLi>
                <SubtitulosLi>Defense: {state.defense}</SubtitulosLi>
                <SubtitulosLi>Speed: {state.speed}</SubtitulosLi>
              </SubtitulosUlErrores> 
  
              <SubtitulosUlErrores > 
-               <SubtitulosLi>height:{state.height} </SubtitulosLi>
-               <SubtitulosLi>weight:{state.weight}</SubtitulosLi>      
+               <SubtitulosLi>Height:{state.height} </SubtitulosLi>
+               <SubtitulosLi>Weight:{state.weight}</SubtitulosLi>      
              </SubtitulosUlErrores>  
            </PokemonCard>  
          </ContPoke> 

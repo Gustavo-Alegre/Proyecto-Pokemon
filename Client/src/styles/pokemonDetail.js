@@ -221,8 +221,16 @@ export const SubtitulosLi = styled.li`
  margin-top: 10px;
  color: white;
  text-decoration: none;
- background-color: red;
- width: 150px;
+
+ width: 100px;
+
+ @media (max-width:600px) {
+  
+  font-size: 12px;
+ 
+  width: 85px;
+  
+}
 
 `;
 

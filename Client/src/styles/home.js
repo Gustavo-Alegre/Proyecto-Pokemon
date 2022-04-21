@@ -219,14 +219,15 @@ export const NavBarGrupo4 = styled.div`
 `;
 
 export const FlechaBotonPaginas = styled.button`
-height: 15px;
+height: 17px;
 width:50px;
-font-size: 20px;
-  background: none;
+font-size: 17px;
+  background: transparent;
   margin: 10px;
   border: none;
   display: flex;
   align-items: center;
+  justify-content: center;
 
 
 
@@ -236,17 +237,10 @@ font-size: 20px;
   color: white;
   font-family: "Poppins";
 
-
-`;
-
-export const FlechitaPaginas = styled.div`
-
-height:10px;
-width: 20px;
-color: white;
-margin: auto auto;
-display: flex;
-align-items: center;
+  @media (max-width:600px) {
+  
+    cursor: none;
+ }
 
 `;
 
