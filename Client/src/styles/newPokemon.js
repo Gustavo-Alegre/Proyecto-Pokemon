@@ -68,21 +68,21 @@ export const Formulario = styled.div`
 `;
 
 
-// export const SubtitulosUlErrores = styled.ul`
+// // export const SubtitulosUlErrores = styled.ul`
 
-//   color: red;
-//   font-family: "Poppins";
-//   font-size: 20px;
+// //   color: red;
+// //   font-family: "Poppins";
+// //   font-size: 20px;
 
-//   @media (max-width: 600px) {
+// //   @media (max-width: 600px) {
     
     
-//     font-size: 10px;
+// //     font-size: 10px;
  
 
-//   }
+// //   }
 
-`;
+// `;
 
 export const SubtitulosLiErrores = styled.h3`
 
