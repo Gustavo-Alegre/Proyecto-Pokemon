@@ -77,6 +77,7 @@ export const PokemonsDetail = () => {
              <NumeroPokemon>Numero de pokemon: {state.id}</NumeroPokemon>
              <br />
              <DivType> 
+             <p>Tipo:</p>
              {state.type && state.type.map(e => ( 
                <NameType key={e}>{e}</NameType>
              ))}

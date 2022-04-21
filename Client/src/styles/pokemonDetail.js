@@ -43,9 +43,12 @@ export const PokemonCard = styled.div`
   align-items: center;
 
   @media (max-width:600px) {
-  
-background-color: transparent;
-height: 250px;
+margin-top: 0px;
+
+max-height: min-content;
+padding-top:  0px;
+
+
 
 }
  
@@ -142,6 +145,18 @@ font-size: 17px;
     background: white;
     color: black;
   }
+
+  @media (max-width:600px) {
+margin-top:0px;
+height: 20px;
+width: 45px;
+font-size: 11px;
+margin: 0;
+margin-left: 10px;
+
+
+
+}
 `;
 
 
@@ -159,7 +174,11 @@ export const StyledLink = styled(Link)`
 export const Name = styled.h2`
    color: white;
    font-size:25px;
- 
+   @media (max-width:600px) {
+margin-top:5px;
+
+
+}
 
 `;
 
@@ -167,20 +186,31 @@ export const NameType = styled.p`
    color: greenyellow;
    font-size:15px;
    margin: 1px 5px;
- 
+   @media (max-width:600px) {
+margin-left:10px;
+
+
+}
   
 `;
 
 export const DivType = styled.div`
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   align-items:center;
+  
   position: relative;
   top: -60px;
  
   @media (max-width:600px) {
-  
+
 background-color:transparent;
+align-items:center;
+justify-items:center;
+top: 0;
+
+
+
 
 }
 
@@ -204,9 +234,9 @@ export const NumeroPokemon = styled.h2`
  font-size: 20px;
 
  @media (max-width:600px) {
-  
+  margin-top: 0px;
   font-size: 17px;
-
+  margin-bottom: 5px;
 }
 
 
@@ -220,7 +250,9 @@ export const SubtitulosUlErrores = styled.ul`
 
   @media (max-width:600px) {
   
+   
   font-size: 13px;
+  
 
 }
   
