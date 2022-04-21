@@ -68,23 +68,23 @@ export const Formulario = styled.div`
 `;
 
 
-export const SubtitulosUlErrores = styled.ul`
+// export const SubtitulosUlErrores = styled.ul`
 
-  color: red;
-  font-family: "Poppins";
-  font-size: 20px;
+//   color: red;
+//   font-family: "Poppins";
+//   font-size: 20px;
 
-  @media (max-width: 600px) {
+//   @media (max-width: 600px) {
     
     
-    font-size: 10px;
+//     font-size: 10px;
  
 
-  }
+//   }
 
 `;
 
-export const SubtitulosLiErrores = styled.p`
+export const SubtitulosLiErrores = styled.h3`
 
  margin-top: 10px;
  color: red;
@@ -94,6 +94,11 @@ export const SubtitulosLiErrores = styled.p`
     
     font-size: 10px;
     font-family: "Poppins";
+    color:grredeen;
+    width:200px;
+    /* background-color:red; */
+    display: flex;
+    justify-content: center;
  
 
   }
