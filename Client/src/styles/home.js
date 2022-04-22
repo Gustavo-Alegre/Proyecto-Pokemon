@@ -88,7 +88,7 @@ export const NavBar = styled.div`
    @media (max-width:600px) {
   
   position: relative;
-  margin-top: 10px;
+  top: -10px;
   flex-direction:column;
   height: 245px;
   justify-content: center;
@@ -144,6 +144,7 @@ export const NavBarGrupo1 = styled.div`
  
   width: 100%;
   background-color: none;
+  margin-top: 10px;
 
 }
 

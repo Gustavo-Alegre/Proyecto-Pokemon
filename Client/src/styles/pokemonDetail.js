@@ -66,7 +66,7 @@ export const PokemonImage = styled.img`
   
     width: 225px;
     height:325px;
-    object-fit: cover;
+    object-fit: contain;
    
 }
   
