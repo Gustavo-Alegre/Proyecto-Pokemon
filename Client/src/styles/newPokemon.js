@@ -38,9 +38,6 @@ align-items: center;
   
 
  
-
-    
- 
 `;
 
 export const Grupo2 = styled.div`
@@ -187,6 +184,7 @@ margin-right: 45px;
     height: 25px;
     font-size: 10px;
     width: 125px;
+   
 
 
   }
@@ -241,11 +239,11 @@ font-size:35px;
 color: rgb(255, 255, 255);
 font-family: "popins";
 color: greenyellow;
-margin: 0 45px;
+margin: 0 20px;
 
 @media (max-width: 750px) {
 
-  font-size:25px;
+  font-size:24px;
 }
 
 
