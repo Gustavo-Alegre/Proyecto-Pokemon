@@ -15,18 +15,8 @@ export const NameType = styled.p`
 
 `;
 
-export const FlechitaAbajo = styled.img`
-  height: 250px;
-`;
 
-export const Contenedor = styled.div`
 
-padding: 10px; 
-    width: 80%; 
-    margin: 2rem auto; 
-    background-color: transparent; 
-    font-size: 13px; 
-`
 
 export const ContLoading = styled.div`
  min-height: 100vh;
@@ -40,7 +30,16 @@ export const ContLoading = styled.div`
 
   @media (max-width:750px) {
   
-  z-index:1 ;
+  /* z-index:0 ; */
+  margin-top: 0px;
+  position: absolute;
+width: 100%;
+top:0px;
+height: 100%;
+
+
+
+  
    
   }
 `;

@@ -17,7 +17,7 @@ export default function Spin() {
   }, [])
   
   return (
-    <div> 
+  
 
         
         <ContLoading>
@@ -25,7 +25,7 @@ export default function Spin() {
           <Loading />
         </ContLoading>
 
-    </div>
+    
   )
 }
 

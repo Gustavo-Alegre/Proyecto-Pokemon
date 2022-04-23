@@ -85,14 +85,15 @@ export const NavBar = styled.div`
    box-shadow: 0 10px 30px #000; 
    height: 70px;
 
-   @media (max-width:600px) {
+   @media (max-width:700px) {
   
   position: relative;
   top: -10px;
   flex-direction:column;
-  height: 245px;
+  height: 250px;
   justify-content: center;
   max-width:none;
+  margin-bottom: 0;
  
 
 
@@ -219,7 +220,7 @@ export const NavBarGrupo4 = styled.div`
     width: max-content;
     margin-left:20px;
 
-     @media (max-width:70px) {
+     @media (max-width:700px) {
      
       margin-left:auto;
       margin-right:auto;
