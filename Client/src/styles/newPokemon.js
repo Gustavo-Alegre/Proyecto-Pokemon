@@ -11,6 +11,7 @@ export const Contenedor = styled.div`
   align-items: center;
   background-color: black;
   width: 100%;
+  min-height: 100VH;
   
   
   
@@ -49,7 +50,7 @@ export const Grupo2 = styled.div`
    justify-content: center;
    margin: 10px ;
    width:100%;
-   height: 2500px;
+
     
  
 `;
@@ -62,7 +63,7 @@ export const Formulario = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height:1250px;
+ 
  
   
   flex-wrap: wrap;
@@ -99,12 +100,13 @@ export const SubtitulosLiErrores = styled.h3`
 export const Subgrupo2A = styled.div`
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
  
   justify-content: space-around;
   margin:10px;
   min-height: fit-content;
-  width:1500px;
+  width:100%;
  
 
   background-color: #350;
