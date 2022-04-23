@@ -43,7 +43,7 @@ export const PokemonCard = styled.div`
   align-items: center;
 
   
-  @media (max-width:600px) {
+  @media (max-width:750px) {
 margin-top: 0px;
 
 max-height: min-content;
@@ -62,7 +62,7 @@ export const PokemonImage = styled.img`
   box-shadow: 0 10px 30px white; 
   margin-top: 25px;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
     width: 225px;
     height:325px;
@@ -115,7 +115,7 @@ background: none;
     color: black;
   }
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
     height: 20px;
 font-size: 10px;
@@ -143,7 +143,7 @@ font-size: 17px;
     color: black;
   }
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
 margin-top:0px;
 height: 20px;
 width: 45px;
@@ -172,7 +172,7 @@ export const Name = styled.h2`
    color: white;
    font-size:25px;
 
-   @media (max-width:600px) {
+   @media (max-width:750px) {
    margin-top:5px;
 
 
@@ -185,7 +185,7 @@ export const NameType = styled.p`
    font-size:15px;
    margin: 1px 5px;
 
-   @media (max-width:600px) {
+   @media (max-width:750px) {
    margin-left:10px;
 
 
@@ -201,7 +201,7 @@ export const DivType = styled.div`
   position: relative;
   top: -60px;
  
-  @media (max-width:600px) {
+  @media (max-width:750px) {
 
 background-color:transparent;
 align-items:center;
@@ -222,7 +222,7 @@ export const SubtitulosLi = styled.li`
  text-decoration: none;
  width: 100px;
 
- @media (max-width:600px) {
+ @media (max-width:750px) {
   
   font-size: 12px;
   width: 85px;
@@ -240,7 +240,7 @@ export const NumeroPokemon = styled.h2`
  color: greenyellow;
  font-size: 20px;
 
- @media (max-width:600px) {
+ @media (max-width:750px) {
   margin-top: 0px;
   font-size: 17px;
   margin-bottom: 5px;
@@ -255,7 +255,7 @@ export const SubtitulosUlErrores = styled.ul`
   font-family: "Poppins";
   font-size: 17px;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
    
   font-size: 13px;

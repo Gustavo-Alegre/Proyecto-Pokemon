@@ -25,7 +25,7 @@ async function pokemonDb(){
        jss = jss.map(e=> {  
             return { 
                 id: e.id, 
-                name: (e.name[0].toUpperCase() + e.name.slice(1)), 
+                name: (e.name[0].toLowerCase() + e.name.slice(1)), 
                 hp: e.hp, 
                 attack: e.attack, 
                 defense: e.defense, 
@@ -63,7 +63,7 @@ async function pokemonsApi(){
     
         const todoPokemons = pokemon.map(e => { 
             return { 
-            name: (e.name[0].toUpperCase() + e.name.slice(1)), 
+            name: (e.name[0].toLowerCase() + e.name.slice(1)), 
             id: e.id, 
             weight: e.weight,  
             height: e.height, 

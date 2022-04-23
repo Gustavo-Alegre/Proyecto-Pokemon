@@ -21,13 +21,9 @@ router.post('/', async (req, res) => {
 
             errorsResponse.mesen = "debe contener name"
         }
-        else if (!name.match(/^[a-z]+$/)) {
-            errorsResponse.name = ' solo se admiten nombres simples y en minúscula'
+        else if (!name.match(/^[a-zA-Z]+$/)) {
+            errorsResponse.name = 'solo se admiten nombres simples'
         }
-
-
-       
-
 
         if (!(Object.entries(errorsResponse).length === 0)) {
 
@@ -38,7 +34,7 @@ router.post('/', async (req, res) => {
 
 
         const pokemon = await Pokemon.create({
-            name: name,
+            name: (name[0].toLowerCase() + name.slice(1)), 
             hp: hp,
             attack: attack,
             defense: defense,

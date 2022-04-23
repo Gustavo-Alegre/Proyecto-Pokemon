@@ -38,7 +38,7 @@ export const PokemonImage = styled.img`
 `;
 
 export const ContPoke = styled.div`
-
+margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -58,7 +58,7 @@ export const ContPoke = styled.div`
   backdrop-filter: blur(20px);
   background-color: rgba(0,0,0,0.5) ;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
   /* position: absolute;
   top:50px;
@@ -112,7 +112,7 @@ export const SunNavBar = styled.div`
    top: 0;
   left: 0;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
 
    margin-top: 10px;
@@ -138,7 +138,7 @@ export const NavBarGrupo1 = styled.div`
  box-sizing: content-box;
 
  
- @media (max-width:600px) {
+ @media (max-width:750px) {
   
 
  
@@ -160,7 +160,7 @@ display: flex;
 
  align-items: center;
 
- @media (max-width:600px) {
+ @media (max-width:750px) {
   
 
  
@@ -180,7 +180,7 @@ export const NavBarGrupo3 = styled.div`
  width: 900px;
  box-sizing: content-box;
 
- @media (max-width:600px) {
+ @media (max-width:750px) {
 /*   
   flex-direction: column;
   
@@ -219,7 +219,7 @@ export const NavBarGrupo4 = styled.div`
     width: max-content;
     margin-left:20px;
 
-     @media (max-width:600px) {
+     @media (max-width:70px) {
      
       margin-left:auto;
       margin-right:auto;
@@ -247,7 +247,7 @@ font-size: 17px;
   color: white;
   font-family: "Poppins";
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
     cursor: none;
  }
@@ -298,7 +298,7 @@ export const Select = styled.div`
   height: 15px;
   width: 70px;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
   margin-top: 50px;
   width: 70px;
@@ -336,7 +336,7 @@ export const  MobileIcon = styled.div`
 
 display: none;
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
  
  
   align-items: center;

@@ -19,15 +19,15 @@ router.get('/', async (req, res) => {
     if (name) {
 
 
-      if (!name.match(/^[a-z]+$/)) {
-          errorsResponse.name = ' solo se admiten nombres simples y en minúscula'
+      if (!name.match(/^[a-zA-Z]+$/)) {
+          errorsResponse.name = ' solo se admiten nombres simples'
         }
       
         if (!(Object.entries(errorsResponse).length === 0)) {
           return res.send(errorsResponse)
         }
 
-      let nameMayuscula=  name[0].toUpperCase() + name.slice(1)
+      let nameMayuscula=  name[0].toLowerCase() + name.slice(1)
       let dataName = allData.find(e => e.name === nameMayuscula)
       if (!dataName) return res.json(null)
       return res.json(dataName)

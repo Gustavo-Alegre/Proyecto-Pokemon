@@ -13,7 +13,8 @@ export const Contenedor = styled.div`
   width: 100%;
   
   
-  background-color: #350;
+  
+
   border-radius: 25px;
   box-shadow: 0 10px 30px white; 
 
@@ -44,10 +45,11 @@ align-items: center;
 export const Grupo2 = styled.div`
 
    display: flex;
-   /* background-color: yellow; */
+   background-color: yellow;
    justify-content: center;
    margin: 10px ;
    width:100%;
+   height: 2500px;
     
  
 `;
@@ -60,7 +62,9 @@ export const Formulario = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* background-color: gray; */
+  height:1250px;
+ 
+  
   flex-wrap: wrap;
 
  
@@ -68,28 +72,14 @@ export const Formulario = styled.div`
 `;
 
 
-// // export const SubtitulosUlErrores = styled.ul`
-
-// //   color: red;
-// //   font-family: "Poppins";
-// //   font-size: 20px;
-
-// //   @media (max-width: 600px) {
-    
-    
-// //     font-size: 10px;
- 
-
-// //   }
-
-// `;
-
 export const SubtitulosLiErrores = styled.h3`
 
  margin-top: 10px;
+ font-size: 15px;
  color: red;
+ font-family: "Poppins";
 
- @media (max-width: 600px) {
+ @media (max-width: 750px) {
     
     
     font-size: 10px;
@@ -113,17 +103,19 @@ export const Subgrupo2A = styled.div`
  
   justify-content: space-around;
   margin:10px;
+  min-height: fit-content;
   width:1500px;
+ 
 
   background-color: #350;
-  border-radius: 75px;
+  border-radius: 25px;
   box-shadow: 0 10px 30px white; 
 
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(20px);
   background-color: rgba(0,0,0,0.1) ;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
  
     border-radius: 20px;
@@ -188,7 +180,7 @@ margin-right: 45px;
     color: black;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
     
     height: 25px;
     font-size: 10px;
@@ -220,7 +212,7 @@ font-size: 17px;
     color: black;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
     
     height: 25px;
     font-size: 12px;
@@ -249,7 +241,7 @@ font-family: "popins";
 color: greenyellow;
 margin: 0 45px;
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 
   font-size:25px;
 }
@@ -270,7 +262,7 @@ export const InputForm = styled.input`
   outline: none;
 
   
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
     
     /* height: 25px; */
     font-size: 12px;
@@ -291,7 +283,7 @@ export const DivInputForm = styled.div`
   
 
   
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
     
   border-radius: 40px;
   max-height:fit-content;
@@ -322,7 +314,7 @@ color: white;
 font-family: "Poppins";
 margin-right: 15px;
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     
   font-size: 13px;
   background-color: none;

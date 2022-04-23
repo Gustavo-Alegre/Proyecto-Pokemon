@@ -31,7 +31,7 @@ position: absolute;
 
 
 
-@media (max-width:600px) {
+@media (max-width:750px) {
   
 
   object-fit: contain;
@@ -65,7 +65,7 @@ export const LinktoHome = styled(Link)`
     transform: scale(1.03);
   }
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
     font-size: 1rem;
    

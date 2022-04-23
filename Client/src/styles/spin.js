@@ -7,7 +7,7 @@ export const NameType = styled.p`
    font-size:30px;
    margin: 15px 5px;
  
-   @media (max-width:600px) {
+   @media (max-width:750px) {
   
     font-size:15px;
    
@@ -38,7 +38,7 @@ export const ContLoading = styled.div`
   backdrop-filter: blur(20px);
   background-color: rgba(0,0,0,0.5) ;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
   z-index:1 ;
    
@@ -61,7 +61,7 @@ export const Loading = styled.div`
   border-top-color: #fff;
   animation: 1s ${spin} infinite ease-in-out;
 
-  @media (max-width:600px) {
+  @media (max-width:750px) {
   
     width: 5rem;
   height: 5rem;

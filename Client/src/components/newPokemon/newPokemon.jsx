@@ -38,8 +38,8 @@ export function validate(pokemon) {
   
   if (!pokemon.name) {
     errors.name = 'se requiere nombre'
-  } else if (!pokemon.name.match(/^[a-z]+$/)) {
-    errors.name = "solo se admiten nombres simples y en minúscula"
+  } else if (!pokemon.name.match(/^[a-zA-Z]+$/)) {
+    errors.name = "solo se admiten nombres simples"
   }
 
 
@@ -195,7 +195,7 @@ export default function NewPokemon() {
         <Boton><StyledLink to={`/home`}>Go to home</StyledLink></Boton>
       </Grupo1>
 
-      <Grupo2>
+
       <Subgrupo2A>
 
         <Formulario>
@@ -226,14 +226,14 @@ export default function NewPokemon() {
             {errors.hp && <SubtitulosLiErrores>-{errors.hp}</SubtitulosLiErrores>}
 
             <br></br>
-            <Subtitulos>attack</Subtitulos>
+            <Subtitulos>Attack</Subtitulos>
             <DivInputForm>
               <InputForm placeholder='attack..' name='attack' onChange={handleInputChange} value={pokemon.attack} />
             </DivInputForm>
             {errors.attack && <SubtitulosLiErrores>-{errors.attack}</SubtitulosLiErrores>}
 
             <br></br>
-            <Subtitulos>defense</Subtitulos>
+            <Subtitulos>Defense</Subtitulos>
 
             <DivInputForm>
               <InputForm placeholder='defense..' name='defense' onChange={handleInputChange} value={pokemon.defense} />
@@ -241,21 +241,21 @@ export default function NewPokemon() {
             {errors.defense && <SubtitulosLiErrores>-{errors.defense}</SubtitulosLiErrores>}
 
             <br></br>
-            <Subtitulos>speed</Subtitulos>
+            <Subtitulos>Speed</Subtitulos>
             <DivInputForm>
               <InputForm placeholder='speed..' name='speed' onChange={handleInputChange} value={pokemon.speed} />
             </DivInputForm>
             {errors.speed && <SubtitulosLiErrores>-{errors.speed}</SubtitulosLiErrores>}
 
             <br></br>
-            <Subtitulos>weight</Subtitulos>
+            <Subtitulos>Weight</Subtitulos>
             <DivInputForm>
               <InputForm placeholder='weight..' name='weight' onChange={handleInputChange} value={pokemon.weight} />
             </DivInputForm>
             {errors.weight && <SubtitulosLiErrores>-{errors.weight}</SubtitulosLiErrores>}
 
             <br></br>
-            <Subtitulos>height</Subtitulos>
+            <Subtitulos>Height</Subtitulos>
             <DivInputForm>
               <InputForm placeholder='height..' name='height' onChange={handleInputChange} value={pokemon.height} />
             </DivInputForm>
@@ -301,7 +301,7 @@ export default function NewPokemon() {
 
       </Subgrupo2A>
 
-      </Grupo2>
+ 
 
 
 

@@ -103,9 +103,9 @@ import flechabajo from "../../activos/chevron-down.svg";
       return alert('No puedes buscar un pokemon si el input esta vacio')
     }
 
-    if (!name.match(/^[a-z]+$/)) {
+    if (!name.match(/^[a-zA-Z]+$/)) {
       setName('')
-      return alert("solo se admiten nombres simples y en minúscula")
+      return alert("solo se admiten nombres simples")
     }
 
     dispatch(pokemonName(name))
