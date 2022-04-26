@@ -76,7 +76,7 @@ margin-top: 150px;
 
 
 export const NavBar = styled.div`
-
+  z-index: 1;
   position: fixed;
   width: 100%;
   background-color: black;
